@@ -1,0 +1,222 @@
+.room {
+    padding: 30px 0;
+}
+.room-top {
+    margin-bottom: 30px;
+}
+.room-top p {
+    font-family: var(--main-text-font);
+    margin: 0 12px;
+    font-size: 14px;
+}
+.room-content-left {
+    width: 60%;
+}
+.room-content-right {
+    width: 40%;
+    padding-left: 20px;
+}
+.room-content-left-big-img {
+    width: 80%;
+    padding-right: 20px;
+}
+.room-content-left-big-img img {
+    width: 100%;
+}
+.room-content-left-small-img {
+    width: 20%;
+}
+.room-content-left-small-img img {
+    width: 100%;
+    cursor: pointer;
+}
+.room-content-right-roomname h1 {
+    font-family: var(--main-text-font);
+    font-size: 16px;
+}
+.room-content-right-roomname p {
+    font-size: 12px;
+}
+.room-content-right-roomprice {
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--main-text-font);
+}
+.room-content-right-roomsee img {
+    height: 30px;
+    width: 30px;
+}
+.room-content-right-roomsee-img{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+.roompeopel span {
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid #dddddd;
+    margin: 12px 10px 12px 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.date {
+    font-size: large;
+    display: flex;
+    margin-bottom: 20px;
+}
+#date {
+    padding-left: 10px;
+}
+.date input {
+    width: 100px;
+    padding-left: 3px;
+}
+.room-content-right-roombutton button{
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 20px 0 12px;
+    transition: all 0.3s ease;
+}
+.room-content-right-roombutton button:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffff;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.room-content-right-roombutton button:first-child:hover {
+    background-color: black;
+    color: #ffff;
+}
+.room-content-right-roombutton button:last-child {
+    border: 2px solid #BF8A49;
+    color: #BF8A49;
+    background-color: #ffff;
+    cursor: pointer;
+}
+/* Lỗi */
+/* .room-content-right-roombutton button:last-child:hover {
+    background-color: black;
+    color: #ffff;
+} */
+.room-content-right-roomicon {
+    display: flex;
+}
+.room-content-right-roomicon-item {
+    display: flex;
+    margin-right: 12px;
+    justify-content: center;
+    align-content: center;
+}
+.room-content-right-roomicon-item i {
+    font-size:  13px;
+    margin-right: 6px;
+}
+.room-content-right-roomQR {
+    margin: 20px 0;
+
+}
+.room-content-right-bottom {
+    padding-top: 40px;
+    border-top: 1px solid #dddddd;
+    position: relative;
+}
+.room-content-right-bottom-top {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: -15px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.room-content-right-bottom-big-title {
+    border-bottom: 2px solid #dddddd;
+}
+.room-content-right-bottom-big-title-item {
+    padding: 6px;
+    cursor: pointer;
+    padding-right: 6px;
+}
+.room-content-right-bottom-big-title-item p {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.room-content-right-bottom-content {
+    padding-top: 30px;
+}
+.room-content-right-bottom-content p {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.room-content-right-bottom-content-quydinhkhachsan {
+    display: none;
+}
+.activeB {
+    display: none;
+}
+/* ROOM - DELATED */
+.room-related {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333333;
+}
+.room-ralated-title {
+    padding-left: 20px;
+    margin: 20px 0;
+}
+.room-ralated-title p {
+    font-family: var(--main-text-font);
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.room-related-item {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    height: 240px;
+    border: 1px solid rgb(158, 156, 156);
+    margin: 12px 0;
+    border-radius: 10px;
+}
+.room-related-item img {
+    padding-left: 20px;
+    float: left;
+    width: 300%;    
+}
+.room-related-item h1 {
+    float: right;
+    transform: translateX(-170%);
+    padding-top: 10px;
+}
+.h3 {
+    padding-left: 420px;
+    padding-top: 30px;
+    color: #8d8686;
+}
+#rice {
+    text-decoration: line-through;
+}
+#number {
+    font-size: large;
+    display: flex;
+    margin-bottom: 20px;
+}
+.SL-date input {
+    width: 40px;
+    padding-left: 3px;
+}

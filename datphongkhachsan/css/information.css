@@ -1,0 +1,147 @@
+.information {
+    padding: 50px 0;
+}
+.information-top-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information-top {
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.information-top-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.information-top-item i {
+    color: #dddddd;
+}
+.information-top-adress {
+    border: 1px solid #0db7ea;
+}
+.information-top-adress i {
+    color: #0db7ea;
+}
+.information-content-left {
+    width: 60%;
+    padding-right: 12px;
+}
+.information-content-left p {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.information-content-left label {
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    margin-bottom: 6px;
+    display: block;
+}
+.information-content-left > p {
+    font-weight: bold;
+}
+.information-content-left-login {
+    margin-top: 12px;
+}
+.information-content-left-login i {
+    font-size: 12px;
+    margin-right: 12px;
+}
+.information-content-left-khachle {
+    margin: 12px 0;
+}
+.information-content-left-khachle input {
+    margin-right: 12px;
+}
+.information-content-left-signup {
+    margin-bottom: 30px;
+}
+.information-content-left-signup input {
+    margin-right: 12px;
+}
+.information-content-left-input-top-item {
+    width: calc(33% - 12px);
+}
+.information-content-left-input-top-item input {
+    width: 90%;
+    height: 35px;
+    border: 1px solid #dddddd;
+    padding-left: 1px;
+}
+.information-content-left-input-top-bottom {
+    padding-top: 20px;
+}
+.information-content-left-input-top-bottom input {
+    width: 85.5%;
+    height: 35px;
+    border: 1px solid #dddddd;
+    padding-left: 1px;
+}
+.information-content-left-button {
+    width: 91.5%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.information-content-left-button p {
+    display: inline-block;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.information-content-left-button span {
+    margin-right: 12px;
+}
+.information-content-left-button button {
+    height: 35px;
+    border: 2px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.information-content-left-button button:hover {
+    background-color: black;
+    color: #fff;
+}
+.information-content-right {
+    width: 40%;
+    padding-left: 12px;
+    border-left: 2px solid #dddddd;
+    height: auto;
+}
+.information-content-right table {
+    width: 100%;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    text-align: center;
+}
+.information-content-right table tr th:first-child {
+    text-align: left;
+}
+.information-content-right table tr th {
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.information-content-right table tr th:last-child {
+    text-align: right;
+}
+.information-content-right table tr td {
+    padding: 6px 0;
+}
+
+.information-content-right table tr td:last-child {
+    text-align: right;
+}
+.information-content-right table tr td:first-child{
+    text-align: left;
+}

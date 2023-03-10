@@ -1,0 +1,25 @@
+#button1{
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px; 
+    width: 100px; 
+    margin-top: 10px; 
+    background-color: #007CE8; 
+    color: #fff;
+    border: 0.5px solid #dddddd;
+    border-radius: 5px;
+}
+.cart-content {
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+.cart-content-right tr:nth-child(3) td {
+    border-bottom: 2px solid #dddddd;
+}
+.information-content-right table tr:nth-child(2) td {
+    border-bottom: 2px solid #dddddd;
+}
+.information-content-right table tr:nth-child(3){
+    border-top: 2px solid #dddddd;
+}
